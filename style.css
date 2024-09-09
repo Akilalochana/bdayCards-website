@@ -232,6 +232,36 @@ img.homeImage {
 }
 
 #product1 .pro .des h5 {
-    padding: 7px;
+    padding: 5px;
     font-size: 14px;
+}
+
+#product1 .pro .des i {
+    font-size: 15px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.ri-shopping-cart-fill {
+    width: 40px;
+    height: 40px;
+    line-height: 10px;
+    border-radius: 50px;
+    background-color: #aea6a6;
+    font-weight: 100;
+    color: #088178;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+    padding-top: -15px;
+    text-decoration: none;
 }
