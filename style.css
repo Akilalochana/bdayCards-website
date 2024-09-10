@@ -199,17 +199,30 @@ img.homeImage {
 
 }
 
+#product1 .pro-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
 #product1 .pro {
-    width: 10%;
+    width: 15%;
     min-width: 250px;
     padding: 10px 22px;
-    border: 1px solid #cce7d0;
+    border: 1px solid #b4ddbb;
     /* background-color: #E3E6F3; */
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(18, 18, 19, 0.02);
     margin: 15px 20px;
     transition: 0.2s ease;
+    position: relative;
+    /* background-color: #b6b384; */
+
+
 }
 
 #product1 .pro:hover {
@@ -248,20 +261,75 @@ img.homeImage {
     color: #088178;
 }
 
-.ri-shopping-cart-fill {
+#product1 .pro .cart {
     width: 40px;
     height: 40px;
-    line-height: 10px;
+    line-height: 40px;
     border-radius: 50px;
-    background-color: #aea6a6;
-    font-weight: 100;
+    background-color: #e8f6ea;
+    font-weight: 500;
     color: #088178;
-    font-size: 20px;
-    text-align: center;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+/* --------banner 1 */
+
+#banner {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin-left: 140px;
-    padding-top: -15px;
-    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    background-image: url(imges/banner/b2.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: #fff;
+    font-size: 14px;
+}
+
+#banner h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner button:hover {
+    background: #088178;
+    color: #fff;
+}
+
+#otherCrafts .banner-box {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(imges/banner/b2.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
 }
