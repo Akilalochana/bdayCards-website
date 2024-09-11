@@ -120,7 +120,10 @@ body {
     flex-direction: column;
     align-items: flex-start;
     top: 150px;
+
 }
+
+
 
 img.homeImage {
     width: 600px;
@@ -281,6 +284,16 @@ img.homeImage {
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+.ri-shopping-bag-4-line {
+    color: #088178;
+}
+
+#mobile {
+    display: none;
+    align-items: center;
+
 }
 
 /* --------banner 1 */
@@ -513,4 +526,37 @@ footer a:hover {
 footer .copyRight {
     width: 100%;
     text-align: center;
+}
+
+
+@media(max-width:821px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -400px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 80pz 0 0 10px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+
+    }
+
+    #mobile i {
+        font-size: 30px;
+        padding-left: 20px;
+    }
 }
