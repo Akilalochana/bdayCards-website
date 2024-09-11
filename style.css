@@ -666,4 +666,109 @@ footer .copyRight {
     #product1 .pro-container .pro img {
         width: 100px;
     }
+
+    .logo {
+        width: 100px;
+        margin-left: -50px;
+    }
+
+
+
+    #mobile {
+        font-size: 30px;
+        /* padding-left: 90px; */
+
+        margin-left: 180px;
+    }
+
+    .ri-shopping-bag-4-line {
+
+        position: absolute;
+        right: 100px;
+        bottom: 30px;
+    }
+
+
+
+
+    #banner {
+
+        height: 15vh;
+    }
+
+    #banner h4 {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    #banner h2 {
+        color: #fff;
+        font-size: 20px;
+        padding: 4px 0;
+    }
+
+    #banner button {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 30px;
+
+    }
+
+
+
+
+    #newsletter .form {
+        display: flex;
+        width: 30%;
+        margin-right: 100px;
+    }
+
+    #newsletter h4 {
+
+        margin-left: 50px;
+        margin-top: 25px;
+
+    }
+
+    #newsletter p {
+        color: #818ea0;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    #newsletter p span {
+        color: #ffbd27;
+    }
+
+
+    #newsletter input {
+        height: 3rem;
+        padding: 0 5em;
+        font-size: 14px;
+        width: 100%;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        outline: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    #newsletter button {
+
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 30px;
+        color: #ffffff;
+        background-color: #088178;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.2s;
+        white-space: nowrap;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+
 }
