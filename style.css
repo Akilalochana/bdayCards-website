@@ -532,6 +532,133 @@ footer .copyRight {
     display: none;
 }
 
+/* ----------------------------------------------shop------------- */
+
+#page-header {
+    background-image: url(imges/banner/AlbedoBase_XL_birthday_cards_website_to_banner_dark_mood_3.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: #fff;
+}
+
+#pagination {
+    text-align: center;
+
+
+}
+
+.paginationPadding {
+    padding: 40px;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    border-radius: 4px;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#mainImg {
+    background-color: wheat;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.smallImg {
+    background-color: wheat;
+    border-radius: 8px;
+}
+
+/* ---------------------------single products---------------------- */
+
+#productDetails {
+    padding: 50px 200px;
+    display: flex;
+}
+
+
+#productDetails .single-pro-image {
+    width: 28%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    /* padding: 0 10px; */
+    cursor: pointer;
+}
+
+
+#productDetails .single-pro-details {
+    width: 50%;
+    padding-top: 5px;
+}
+
+
+#productDetails .single-pro-details h4 {
+    padding: 20px 0 0 0;
+    font-size: 26px;
+}
+
+#productDetails .single-pro-details h2 {
+    font-size: 36px;
+    color: #088118;
+}
+
+
+#productDetails .single-pro-details .wish {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    color: #fff;
+    background-color: #088178;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#productDetails .single-pro-details .wish:hover {
+    background: #088118;
+}
+
+
+#productDetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+
+
 
 @media(max-width:821px) {
     #navbar {
