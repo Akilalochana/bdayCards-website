@@ -34,15 +34,18 @@
 
     <section id="productDetails">
         <div class="single-pro-image">
-            <img src="imges/Bday cards/heartCard.png" width="100%" id="mainImg" alt="">
+            <img src="imges/Bday cards/natureCard2.png" width="100%" id="mainImg" alt="">
             <div class="small-img-group">
+
+                <div class="small-img-col">
+                    <img src="imges/Bday cards/natureCard2.png" width="100%" class="smallImg" alt="">
+                </div>
+
                 <div class="small-img-col">
                     <img src="imges/Bday cards/heartCard.png" width="100%" class="smallImg" alt="">
                 </div>
 
-                <div class="small-img-col">
-                    <img src="imges/Bday cards/folwerCard.png" width="100%" class="smallImg" alt="">
-                </div>
+
 
                 <div class="small-img-col">
                     <img src="imges/Bday cards/pandCard1.png" width="100%" class="smallImg" alt="">
@@ -55,7 +58,7 @@
 
         </div>
 
-        <div class="single-pro-details" id="forlovers">
+        <div class="single-pro-details" id="forlovers" style="display: none;">
             <h6>birthday cards</h6>
             <h4>For Lovers</h4>
             <h2>$3.99</h2>
@@ -73,18 +76,17 @@
                 in one with designs that combine romance and festivity, perfect for couples.</p>
         </div>
 
-        <div class="single-pro-details" id="seasonalCards" style="display: none;">
+        <div class="single-pro-details" id="Eco-FriendlyCards">
             <h6>birthday cards</h6>
-            <h4>Seasonal Cards</h4>
+            <h4>Eco-Friendly Cards</h4>
             <h2>$3.99</h2>
             <button class="wish">Write Your Wish</button> <br><br>
 
             <input type="number" value="1">
             <button class="wish">Add To Cart</button>
-            <h4>Holiday-Themed Birthday Cards</h4>
-            <p>Make birthdays during the holiday season even more special with our holiday-themed birthday cards.
-                Blending birthday celebrations with the joy of Christmas, Halloween, or New Year's, these unique designs
-                bring twice the cheer.</p>
+            <h4>Sustainable Birthday Cards</h4>
+            <p>Show your love for the planet while celebrating someone special with our eco-friendly birthday cards.
+                Made from recycled materials and sustainable inks, these cards offer a beautiful way to be green.</p>
 
         </div>
 
@@ -283,25 +285,25 @@
 
                 // Switch between card categories based on clicked image
                 if (mainImg.src == smallImg[1].src) {
-                    document.getElementById('seasonalCards').style.display = "block";
-                    document.getElementById('forlovers').style.display = "none";
+                    document.getElementById('Eco-FriendlyCards').style.display = "none";
+                    document.getElementById('forlovers').style.display = "block";
                     document.getElementById('forChild').style.display = "none";
                     document.getElementById('funnyCards').style.display = "none";
 
                 } else if (mainImg.src == smallImg[2].src) {
-                    document.getElementById('seasonalCards').style.display = "none";
+                    document.getElementById('Eco-FriendlyCards').style.display = "none";
                     document.getElementById('forlovers').style.display = "none";
                     document.getElementById('forChild').style.display = "block";
                     document.getElementById('funnyCards').style.display = "none";
 
                 } else if (mainImg.src == smallImg[3].src) {
-                    document.getElementById('seasonalCards').style.display = "none";
+                    document.getElementById('Eco-FriendlyCards').style.display = "none";
                     document.getElementById('forlovers').style.display = "none";
                     document.getElementById('forChild').style.display = "none";
                     document.getElementById('funnyCards').style.display = "block";
                 } else {
-                    document.getElementById('seasonalCards').style.display = "none";
-                    document.getElementById('forlovers').style.display = "block";
+                    document.getElementById('Eco-FriendlyCards').style.display = "block";
+                    document.getElementById('forlovers').style.display = "none";
                     document.getElementById('forChild').style.display = "none";
                     document.getElementById('funnyCards').style.display = "none";
                 }

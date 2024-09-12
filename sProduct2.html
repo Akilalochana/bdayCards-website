@@ -34,15 +34,18 @@
 
     <section id="productDetails">
         <div class="single-pro-image">
-            <img src="imges/Bday cards/heartCard.png" width="100%" id="mainImg" alt="">
+            <img src="imges/Bday cards/folwerCard.png" width="100%" id="mainImg" alt="">
             <div class="small-img-group">
-                <div class="small-img-col">
-                    <img src="imges/Bday cards/heartCard.png" width="100%" class="smallImg" alt="">
-                </div>
 
                 <div class="small-img-col">
                     <img src="imges/Bday cards/folwerCard.png" width="100%" class="smallImg" alt="">
                 </div>
+
+                <div class="small-img-col">
+                    <img src="imges/Bday cards/heartCard.png" width="100%" class="smallImg" alt="">
+                </div>
+
+
 
                 <div class="small-img-col">
                     <img src="imges/Bday cards/pandCard1.png" width="100%" class="smallImg" alt="">
@@ -55,7 +58,7 @@
 
         </div>
 
-        <div class="single-pro-details" id="forlovers">
+        <div class="single-pro-details" id="forlovers" style="display: none;">
             <h6>birthday cards</h6>
             <h4>For Lovers</h4>
             <h2>$3.99</h2>
@@ -73,7 +76,7 @@
                 in one with designs that combine romance and festivity, perfect for couples.</p>
         </div>
 
-        <div class="single-pro-details" id="seasonalCards" style="display: none;">
+        <div class="single-pro-details" id="seasonalCards">
             <h6>birthday cards</h6>
             <h4>Seasonal Cards</h4>
             <h2>$3.99</h2>
@@ -283,8 +286,8 @@
 
                 // Switch between card categories based on clicked image
                 if (mainImg.src == smallImg[1].src) {
-                    document.getElementById('seasonalCards').style.display = "block";
-                    document.getElementById('forlovers').style.display = "none";
+                    document.getElementById('seasonalCards').style.display = "none";
+                    document.getElementById('forlovers').style.display = "block";
                     document.getElementById('forChild').style.display = "none";
                     document.getElementById('funnyCards').style.display = "none";
 
@@ -300,8 +303,8 @@
                     document.getElementById('forChild').style.display = "none";
                     document.getElementById('funnyCards').style.display = "block";
                 } else {
-                    document.getElementById('seasonalCards').style.display = "none";
-                    document.getElementById('forlovers').style.display = "block";
+                    document.getElementById('seasonalCards').style.display = "block";
+                    document.getElementById('forlovers').style.display = "none";
                     document.getElementById('forChild').style.display = "none";
                     document.getElementById('funnyCards').style.display = "none";
                 }
