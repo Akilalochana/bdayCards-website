@@ -738,6 +738,11 @@ footer .copyRight {
         height: 30vh;
 
     }
+
+    #productDetails {
+        padding: 50px 40px;
+        display: flex;
+    }
 }
 
 
@@ -992,5 +997,24 @@ footer .copyRight {
         gap: 10px;
     }
 
+    /* single product------------------- */
+    #productDetails {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #productDetails .single-pro-image {
+        width: 90%;
+        margin-left: 10px;
+
+    }
+
+    #productDetails .single-pro-details {
+        width: 100%;
+        padding-top: 10px;
+        margin-left: 20px;
+
+
+
+    }
 }
