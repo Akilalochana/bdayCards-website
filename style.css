@@ -806,8 +806,8 @@ footer .copyRight {
     }
 
     #feature .fe-box {
-        width: 155px;
-        margin: 0 12px 15px 12px;
+        width: 145px;
+        margin: 0 10px 10px 10px;
     }
 
     #product1 .pro {
@@ -841,13 +841,28 @@ footer .copyRight {
 
     #newsletter input {
         height: 3rem;
-        padding: 0 8.5em;
+        padding: 0 7em;
         margin-bottom: 20px;
-        margin-left: 15px;
+        margin-left: 17px;
     }
 
     .footerpadding {
         padding: 30px 30px;
+    }
+
+
+    /* #otherCrafts .banner-box {
+
+        min-width: 10px;
+        height: 20vh;
+    } */
+
+    #product1 .pro-container {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
 
