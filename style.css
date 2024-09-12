@@ -613,6 +613,8 @@ footer .copyRight {
     }
 }
 
+
+
 @media(max-width:450px) {
     #hero {
         margin: -100px 0 0 10px;
@@ -667,17 +669,12 @@ footer .copyRight {
         width: 100px;
     }
 
-    .logo {
+    /* .logo {
         width: 100px;
         margin-left: -50px;
     }
-
-
-
     #mobile {
         font-size: 30px;
-        /* padding-left: 90px; */
-
         margin-left: 180px;
     }
 
@@ -686,9 +683,11 @@ footer .copyRight {
         position: absolute;
         right: 100px;
         bottom: 30px;
+    } */
+    #header {
+        padding: 20px 35px;
+
     }
-
-
 
 
     #banner {
@@ -713,8 +712,6 @@ footer .copyRight {
         padding: 10px 30px;
 
     }
-
-
 
 
     #newsletter .form {
@@ -743,31 +740,114 @@ footer .copyRight {
 
     #newsletter input {
         height: 3rem;
-        padding: 0 5em;
-        font-size: 14px;
-        width: 100%;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        outline: none;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
+        padding: 0 7em;
+        margin-bottom: 20px;
+        margin-left: 50px;
     }
 
     #newsletter button {
 
-        font-size: 14px;
         font-weight: 600;
         padding: 15px 30px;
-        color: #ffffff;
-        background-color: #088178;
-        border-radius: 4px;
-        cursor: pointer;
-        border: none;
-        outline: none;
-        transition: 0.2s;
-        white-space: nowrap;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
+        margin-bottom: 20px;
+
+    }
+
+
+}
+
+
+
+
+@media(max-width:400px) {
+
+    #header {
+        padding: 20px 20px;
+    }
+
+    #hero {
+        margin: -130px 0 0 10px;
+        padding: 10px;
+    }
+
+    #mobile i {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    #mobile i {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 4px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    img.homeImage {
+        width: 250px;
+        position: absolute;
+        left: 40px;
+        top: 400px;
+    }
+
+    .section-p1 {
+        padding: 420px 5px 0 0;
+    }
+
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 12px 15px 12px;
+    }
+
+    #product1 .pro {
+        height: 270px;
+        min-width: 150px;
+    }
+
+
+    #banner {
+
+        height: 20vh;
+    }
+
+    #banner h4 {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    #banner h2 {
+        color: #fff;
+        font-size: 18px;
+        padding: 1px 0;
+    }
+
+    #banner button {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 30px;
+
+    }
+
+    #newsletter input {
+        height: 3rem;
+        padding: 0 8.5em;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .footerpadding {
+        padding: 30px 30px;
     }
 
 
