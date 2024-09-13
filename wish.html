@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Your Wish</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url(imges/banner/about4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 20px 0;
+        }
+
+        #wish {
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="imges/Screenshot_2024-09-07_230235-removebg-preview.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="cartBag"><a href="cart.html"><i class="ri-shopping-bag-4-line"></i></a></li>
+                <a href="#" id="close"><i class="ri-close-line"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+
+            <a href="cart.html"><i class="ri-shopping-bag-4-line"></i></a>
+            <i id="bar" class="ri-menu-line"></i>
+        </div>
+    </section>
+    <section id="wishSection">
+        <div id="wishIDdiv">
+            <h2>Write Your Wish</h2>
+            <textarea id="wishTA" rows="5" cols="40" placeholder="         Write your wish here..."></textarea>
+        </div>
+        <div canvesIDdiv>
+            <h2>Draw Your Decoration</h2>
+            <canvas id="paintCanvas" width="400" height="400"></canvas>
+        </div>
+    </section>
+
+    <button class="wishTAbttn">Send</button>
+
+
+
+
+
+
+
+    <footer class="footerpadding">
+        <div class="col">
+            <img src="imges/Screenshot_2024-09-07_230235-removebg-preview.png" class="logo" alt="">
+            <h4>contact</h4>
+            <p> <strong>Address:</strong>Airport road, Anuradhapura</p>
+            <p> <strong>Phone:</strong>+94 704511887 </p>
+            <p> <strong>Hours:</strong>08:00 - 18:00, Mon - Fri</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="ri-facebook-fill"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-whatsapp-line"></i>
+                    <i class="ri-tiktok-fill"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Oder </a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="imges/app/app.jpg" alt="">
+                <img src="imges/app/play.jpg" alt="">
+            </div>
+            <div>
+                <p>Secured Payment Geteways</p>
+                <img src="imges/app/pay.png" alt="">
+            </div>
+
+
+        </div>
+
+        <div class="copyRight">
+            <p>&copy; 2024 Akila Lochana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple drawing functionality
+        const canvas = document.getElementById('paintCanvas');
+        const ctx = canvas.getContext('2d');
+        let painting = false;
+
+        function startPosition(e) {
+            painting = true;
+            draw(e);
+        }
+
+        function endPosition() {
+            painting = false;
+            ctx.beginPath();
+        }
+
+        function draw(e) {
+            if (!painting) return;
+
+            ctx.lineWidth = 5;
+            ctx.lineCap = 'round';
+            ctx.strokeStyle = 'black';
+
+            ctx.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop);
+        }
+
+        canvas.addEventListener('mousedown', startPosition);
+        canvas.addEventListener('mouseup', endPosition);
+        canvas.addEventListener('mousemove', draw);
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
