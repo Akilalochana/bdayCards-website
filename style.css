@@ -1166,29 +1166,37 @@ footer .copyRight {
     }
 
     #wishTA {
-
         height: 200px;
-        width: 300px;
-        margin-right: 100px;
+        width: 100%;
         font-size: 20px;
     }
 
     #paintCanvas {
         height: 200px;
         width: 100%;
-        margin-right: 100px;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     #wishSection {
-        padding: 0 50px;
-        flex-wrap: wrap;
+        /* padding: 0 50px; */
+        /* flex-wrap: wrap; */
+
     }
 
     .wishTAbttn {
+        margin-left: 200px;
+    }
 
-        margin-left: 250px;
+    #wishIDdiv {
+        width: 300px;
+        /* margin-right: 100px; */
+        margin-left: -50px;
+    }
+
+    #canvesIDdiv {
+        width: 250px;
 
     }
+
 
 }
