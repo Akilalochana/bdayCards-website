@@ -345,6 +345,7 @@ img.homeImage {
     align-items: center;
     margin-top: 40px;
     margin-bottom: 30px;
+
 }
 
 #otherCrafts {
@@ -362,16 +363,17 @@ img.homeImage {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(imges/banner/flat-aged-woman-artist-painting-.jpg);
+    background-image: url(imges/banner/othercrftArt.jpg);
     min-width: 580px;
     height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 40px;
+    border-radius: 8px;
 }
 
 #otherCrafts .banner-box2 {
-    background-image: url(imges/banner/b3.jpg);
+    background-image: url(imges/banner/contact.jpg);
 }
 
 #otherCrafts button {
@@ -382,7 +384,7 @@ img.homeImage {
     background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
-    border: 1px solid #000;
+    border: 4px solid #000;
     outline: none;
     transition: 0.2s;
     margin-left: 50px;
@@ -1104,6 +1106,11 @@ footer .copyRight {
 
     }
 
+    #otherCrafts .banner-box {
+        min-width: 90%;
+        height: 30vh;
+    }
+
     #newsletter input {
         height: 3rem;
         padding: 0 7em;
@@ -1137,15 +1144,15 @@ footer .copyRight {
     }
 
     #productDetails .single-pro-image {
-        width: 90%;
-        margin-left: 10px;
+        width: 80%;
+        margin-left: 27px;
 
     }
 
     #productDetails .single-pro-details {
         width: 100%;
         padding-top: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
 
@@ -1196,6 +1203,31 @@ footer .copyRight {
     #canvesIDdiv {
         width: 250px;
 
+    }
+
+
+    #productDetails .single-pro-details h4 {
+        padding: 10px 0 0 0;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #productDetails .single-pro-details h2 {
+        font-size: 26px;
+
+    }
+
+
+    #productDetails .single-pro-details .wish {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 16px;
+    }
+
+
+    #productDetails .single-pro-details input {
+        width: 40px;
+        height: 37px;
     }
 
 
