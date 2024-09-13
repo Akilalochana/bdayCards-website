@@ -539,7 +539,7 @@ footer .copyRight {
 #page-header {
     background-image: url(imges/banner/AlbedoBase_XL_birthday_cards_website_to_banner_dark_mood_3.jpg);
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -744,6 +744,18 @@ footer .copyRight {
     white-space: nowrap;
 }
 
+/* -------------------CONTACT------------- */
+#contact-header {
+    background-image: url(imges/banner/contactIMG.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
 
 
 
