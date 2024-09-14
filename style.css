@@ -790,6 +790,11 @@ footer .copyRight {
     background: rgb(236, 231, 231);
 }
 
+.submit-form2 {
+    background: rgb(236, 231, 231);
+    display: none;
+}
+
 .first-text {
     color: #000;
     /* background-color: #000; */
@@ -1024,23 +1029,6 @@ textarea.input {
         flex-direction: column;
     }
 
-    .container {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-
-
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .submit-form {
-        padding: 50px 50px;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-        margin-top: 300px;
-    }
 
 
 
@@ -1208,6 +1196,7 @@ textarea.input {
         font-size: 20px;
         padding-left: 30px;
     }
+
 
     #mobile i {
         font-size: 20px;
@@ -1400,5 +1389,32 @@ textarea.input {
 
     /* -------------------------CONTACT US---------- */
 
+    .submitbtn {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 30px;
+        /* margin: 10px 0 10px 1350px; */
+        margin: 10px;
+        margin-left: 150px;
+        margin-top: 110px;
+        color: #ffffff;
+        background-color: #088178;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.2s;
+        white-space: nowrap;
+    }
+
+    .submit-form2 {
+        background: rgb(236, 231, 231);
+        display: block;
+    }
+
+    .submit-form {
+        background: rgb(236, 231, 231);
+        display: none;
+    }
 
 }
