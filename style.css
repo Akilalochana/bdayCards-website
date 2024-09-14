@@ -909,7 +909,20 @@ textarea.input {
 
 
 
+@media(max-width:1300px) {
 
+
+    img.homeImage {
+        width: 450px;
+        position: absolute;
+        left: 750px;
+        margin-top: 60px;
+
+    }
+
+
+
+}
 
 
 
