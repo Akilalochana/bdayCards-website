@@ -900,6 +900,35 @@ textarea.input {
 }
 
 
+/* --------------------------ART PAGE----------------- */
+
+.gallry {
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid rgb(151, 151, 151);
+    margin: 20px 30px 200px 30px;
+    width: 300px;
+}
+
+.gallry .discriptionArts {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallry:hover {
+    border: 2px solid rgb(42, 42, 42);
+}
+
+.gallry img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
 
 
 
@@ -1042,6 +1071,13 @@ textarea.input {
         flex-direction: column;
     }
 
+    .gallry {
+        display: inline-block;
+        border-radius: 8px;
+        border: 1px solid rgb(151, 151, 151);
+        margin: 50px 30px 300px 30px;
+        width: 200px;
+    }
 
 
 
@@ -1428,6 +1464,16 @@ textarea.input {
     .submit-form {
         background: rgb(236, 231, 231);
         display: none;
+    }
+
+
+
+    .gallry {
+        display: inline-block;
+        border-radius: 8px;
+        border: 1px solid rgb(151, 151, 151);
+        margin: 20px 30px 50px 30px;
+        width: 300px;
     }
 
 }
