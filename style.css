@@ -92,6 +92,27 @@ body {
     transition: 0.3s ease;
 }
 
+#navbar li i {
+    font-size: 30px;
+    position: relative;
+}
+
+#navbar li span {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(232, 38, 38);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+}
+
+
+
 #navbar li a:hover,
 #navbar li a.active {
     color: #088178;
@@ -232,7 +253,8 @@ img.homeImage {
     margin: 15px 20px;
     transition: 0.2s ease;
     position: relative;
-    background-color: #dbffd1;
+    /* background-color: #dbffd1; */
+    background-color: #eeeee6;
 
 
 
@@ -279,7 +301,8 @@ img.homeImage {
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #e8f6ea;
+    /* background-color: #e8f6ea; */
+    background-color: #e4ffe8;
     font-weight: 500;
     color: #088178;
     border: 1px solid #cce7d0;
@@ -534,6 +557,27 @@ footer .copyRight {
 
 #close {
     display: none;
+}
+
+.followHeader {
+    margin-top: 70px;
+}
+
+.followHeader .icon i {
+    color: #088178;
+    padding-right: 40px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.followHeader .icon a {
+    text-decoration: none;
+}
+
+
+.followHeader i:hover,
+followHeader a:hover {
+    color: #125f07;
 }
 
 /* ----------------------------------------------shop------------- */
@@ -1249,6 +1293,21 @@ textarea.input {
     }
 
 
+
+    .followHeader {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .followHeader .icon i {
+        color: #088178;
+        padding-right: 30px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+
+
     #mobile i {
         font-size: 20px;
         padding-left: 30px;
@@ -1272,7 +1331,7 @@ textarea.input {
         width: 250px;
         position: absolute;
         left: 40px;
-        top: 350px;
+        top: 370px;
     }
 
     .section-p1 {
