@@ -129,6 +129,30 @@ body {
     left: 20px;
 }
 
+/* -----------navbar mobile shopping cart-------------- */
+
+#mobile a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    /* hover smooth */
+    transition: 0.3s ease;
+}
+#mobile span {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(232, 38, 38);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+}
+
 /* ----------------------home */
 .bairthdayCard {
     font-weight: bolder;
@@ -171,7 +195,7 @@ img.homeImage {
     font-size: 15px;
 }
 
-#feature {
+/* #feature {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -224,7 +248,7 @@ img.homeImage {
 
 #feature .fe-box:nth-child(6) h6 {
     background-color: #fff2e5;
-}
+} */
 
 #product1 {
     text-align: center;
@@ -1042,6 +1066,21 @@ textarea.input {
         padding-left: 30px;
     }
 
+    /* --------------------------tab size cart  */
+    #mobile span {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(232, 38, 38);
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        right: 130px;
+    }
+
     #close {
         position: absolute;
         top: 30px;
@@ -1540,5 +1579,22 @@ textarea.input {
         margin: 20px 30px 50px 30px;
         width: 300px;
     }
+
+
+        /* --------------------------tab size cart  */
+        #mobile span {
+            display: flex;
+            width: 15px;
+            height: 15px;
+            background-color: rgb(232, 38, 38);
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            right: 60px;
+            font-size: 12px;
+        }
 
 }
