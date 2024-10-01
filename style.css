@@ -998,8 +998,45 @@ textarea.input {
 
 
 
+/* ------------SHOPPING CART--------------------------- */
+.cartTab{
+    width: 480px;
+    height: 600px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 98px 0 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    z-index: 9999;
+}
+.cartTab h1{
+    color: #eee;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
 
 
+.close, .checkOut{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    /* margin: 10px 0 10px 1350px; */
+    margin: 10px; 
+    color: #ffffff;
+    background-color: #088178;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    white-space: nowrap;
+}
+.cartTab .listCart .item .imgCart{
+    width: 900px;
+    z-index: 99999999;
+}
 
 
 
