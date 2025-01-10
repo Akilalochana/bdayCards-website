@@ -7,11 +7,11 @@
     font-family: "Montserrat", sans-serif;
 }
 
-/* body {
+body {
     min-height: 100vh;
-    background: #ffefcb;
+    background: #fae7eb;
     color: #fff;
-} */
+}
 
 h1 {
     font-size: 50px;
@@ -278,7 +278,7 @@ img.homeImage {
     transition: 0.2s ease;
     position: relative;
     /* background-color: #dbffd1; */
-    background-color: #eeeee6;
+    background-color: #ece5b5;
 
 
 
@@ -1034,10 +1034,12 @@ textarea.input {
     white-space: nowrap;
 }
 .cartTab .listCart .item .imgCart{
-    width: 900px;
-    z-index: 99999999;
+    width: 100px;
+    /* z-index: 99999999; */
 }
-
+.cartTab .listCart .item{
+    
+}
 
 
 
